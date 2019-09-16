@@ -14,3 +14,5 @@ gitbook build;
 git checkout gh-pages;
 git commit -am "$commit_gh";
 git push origin gh-pages;
+
+git checkout master;
