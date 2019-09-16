@@ -12,6 +12,7 @@ git push origin master;
 gitbook build;
 
 git checkout gh-pages;
+cp -r _book/* .
 git commit -am "$commit_gh";
 git push origin gh-pages;
 
