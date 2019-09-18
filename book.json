@@ -1,0 +1,29 @@
+{
+    "author": "Quareia <garyzhang195@gmail.com>",
+    "links": {
+        "sidebar": {
+            "Quareia's Blog": "https://quareia.github.io"
+        }
+    },
+    "plugins": [
+            "-sharing",
+            "sharing-plus",
+            "-highlight",
+            "prism",
+            "hide-published-with",
+            "back-to-top-button",
+            "code",
+            "github"
+    ],
+    "pluginsConfig": {
+        "sharing": {
+            "qzone": true,
+            "google": true
+        },    
+        "github": {
+            "url": "https://github.com/Quareia"
+        }
+    }
+}
+
+
